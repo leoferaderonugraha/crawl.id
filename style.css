@@ -1,0 +1,45 @@
+#main-container {
+  max-width: 80%;
+}
+
+.rounded-sm {
+  border-radius: .25em !important;
+}
+
+.rounded-md {
+  border-radius: .5em !important;
+}
+
+.input-bar {
+  display: flex;
+  background: white;
+  min-height: 44px;
+  max-height: 50px;
+  width: auto;
+  max-width: 584px;
+  border: 1px solid #5f6368;
+  border-radius: 25px;
+}
+
+.input-bar > svg {
+  margin-top: .6em;
+  margin-bottom: .6em;
+  margin-left: .6em;
+  margin-right: .6em;
+  cursor: pointer;
+}
+
+.input-search {
+  border: none;
+  outline: none;
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+}
+
+svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
