@@ -1,0 +1,6 @@
+title: Crawl.id
+description: Your next level data provider
+baseurl: ""
+url: "https://crawl.id"
+include:
+  - _next
